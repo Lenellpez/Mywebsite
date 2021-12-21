@@ -5,14 +5,22 @@
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-
+    <link type="text/css rel="stylesheet" href="../Content/bootstrap.min.css" />
+    <script src="../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+       <div class="container">
+        <div class="row"> 
+        <div class="col text-center">
+            <h1>Leonel R.Mendez Lopez</h1>
+            <h3>Bienvenido a mi sitio web personal</h3>
+       
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

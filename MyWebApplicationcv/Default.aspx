@@ -2,8 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1> Leonen R. Mendez Lopez </h1>
-    <h2>Bienvenido a mi sitio wep</h2>
-    <h3>Estudios</h3>
+    <h5>Quien soy</h5>
+    <h5>Educacion</h5>
+    <p>Telecom y Educacion IT DESARROLLO FULL STACK CON .NET  · (marzo de 2021 - noviembre de 2021) <br />
+       Universidad Nacional De Salta U.N.s.A  Tecnicatura universitaria en Programacion (en curso ) <br />
+    </p>
 
+    
 </asp:Content>
