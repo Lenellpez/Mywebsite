@@ -9,18 +9,40 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link type="text/css rel="stylesheet" href="../Content/bootstrap.min.css" />
+    <link type="text/css" rel="Stylesheet" href="../Content/bootstrap.min.css" />
     <script src="../Scripts/jquery-3.0.0.min.js"></script>
     <script src="../Scripts/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
+        <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Inicio</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Contactos</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="mailto:leonelrogeliomendez@gmail.com?subject=Oportunidad  puesto de trabajo &body=Hola Leonel! te contacto desde tu website">Gmail</a>
+      <a class="dropdown-item" href="https://www.linkedin.com/in/leonel-mendez-6b80b3219">Linkedln</a>
+      <a class="dropdown-item" href="https://github.com/Lenellpez">Git-Hub</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">MI numero</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled">Mi pagina Personal</a>
+  </li>
+</ul>
        <div class="container">
         <div class="row"> 
         <div class="col text-center">
-            <h1>Leonel R.Mendez Lopez</h1>
+            <h1 class="text-primary">Leonel R.Mendez Lopez</h1>
             <h3>Bienvenido a mi sitio web personal</h3>
-       
+         </div>
+         </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
